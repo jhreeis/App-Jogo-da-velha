@@ -17,8 +17,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  
+  flutter_launcher_icons: ^0.14.2
   flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
 
 
 flutter:
