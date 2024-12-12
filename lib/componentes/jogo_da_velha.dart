@@ -139,13 +139,13 @@ class _JogoDaVelhaState extends State<JogoDaVelha> {
                 ),
               ),
               Text(_contraMaquina ? 'Computador' : 'Humano'),
-                const SizedBox(width: 30.0),
-                if (_pensando)
+              const SizedBox(width: 30.0),
+              if (_pensando)
                 const SizedBox(
-                height: 15.0,
-                width: 15.0,
-                child: CircularProgressIndicator(),
-              )
+                  height: 15.0,
+                  width: 15.0,
+                  child: CircularProgressIndicator(),
+                )
             ],
           ),
         ),
